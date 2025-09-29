@@ -27,7 +27,10 @@ variable "private_subnets" {
   description = "Private subnets"
   type = list(string)
 }
-
+variable "intra_subnets" {
+  description = "Intra subnets"
+  type = list(string)
+}
 
 variable "instance_types" {
   description = "Instance types"
